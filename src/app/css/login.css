@@ -1,0 +1,21 @@
+html {
+    background-color: #0084AE;
+    
+}
+
+.backgoundLogin {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 860px;
+    height: 645px;
+    padding-top: 3%;
+}
+
+body {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+  }
