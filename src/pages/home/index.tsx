@@ -9,7 +9,8 @@ import Link from "next/link"
 import { httpGet } from "@/app/core/http-request-contract"
 import ContainerTask from "@/app/components/container-task/container-task"
 
-export const taskModel = [{ id: 1, title: "", description: "", datetime: "", priority: "" }]
+export const taskModelSingle = { id: 1, title: "", description: "", datetime: "", priority: "" }
+export const taskModel = [taskModelSingle]
 
 export default function HomeComponent() {
     const [tasks, setTask] = useState(taskModel)
@@ -21,7 +22,7 @@ export default function HomeComponent() {
         }).catch((error) => console.log(error))
     }, [])
 
-    const results = tasks.forEach((task) =>
+    const results = tasks.map((task) =>
         <ContainerTask key={task.id} task={task} />
     );
 

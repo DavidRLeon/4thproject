@@ -3,7 +3,7 @@ html {
     
 }
 
-.backgoundLogin {
+.backgound-recover {
     color: transparent;
     width: 850px !important;
     position: absolute;
@@ -11,14 +11,20 @@ html {
     top: 15%;
 }
 
-.formulario{
+.formu{
     position: absolute;
     top: 20%;
     left: 10%;
-}
+} 
 
-.posicion{
+.position{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.containerReg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
