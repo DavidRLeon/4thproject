@@ -3,26 +3,23 @@ html {
     
 }
 
-.backgoundLogin {
+.backgoundtask {
     color: transparent;
-    width: 850px !important;
+    width: 550px !important;
     position: absolute;
-    right: 10%;
-    top: 15%;
+    right: 5%;
+    top: 55%;
 }
 
-.formulario{
+.formu{
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 10%;
-}
+} 
 
-.posicion{
+.position{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.label{
-    color: black !important;
-}
